@@ -1,0 +1,15 @@
+{
+  "name": "slack-css-patcher",
+  "version": "0.1.0",
+  "description": "A Tool to patch CSS files into the Slack Desktop app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Michael Kassabov",
+  "license": "MIT",
+  "dependencies": {
+    "asar": "^3.0.3"
+  }
+}
