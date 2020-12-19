@@ -7,6 +7,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "engines": {
+    "node": ">=14.8.0"
+  },
   "author": "Michael Kassabov",
   "license": "MIT",
   "dependencies": {
