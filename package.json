@@ -1,11 +1,11 @@
 {
   "name": "slack-css-patcher",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Tool to patch CSS files into the Slack Desktop app",
-  "main": "index.js",
+  "main": "cli.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node cli.js"
   },
   "engines": {
     "node": ">=14.8.0"
@@ -14,5 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "asar": "^3.0.3"
+  },
+  "bin": {
+    "slack-css-patcher": "./cli.js"
   }
 }

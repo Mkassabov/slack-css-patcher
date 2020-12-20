@@ -17,7 +17,7 @@ Make sure nodejs is installed.
 Clone the repo then execute the following command in the directory:
 
 ```sh
-npm install
+npm link
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ npm install
 The npm script `start` is used to run the actual program itself. In order for the script to do anything it needs to be provided both a path to the slack app folder as well as a path to the css patch file. After the command is run, restart the slack app (note make sure to fully quit out of the app not just closing it).
 
 ```sh
-npm run start -- slack:"<slack-app-folder>" css:"<patchfile-path>.css"
+slack-css-patcher --slack-path <slack-app-folder> --patch-file <patchfile-path>.css
 ```
 
 These changes will persist untilt the slack app is updated or until this program is rerun resulting and in the patch being overwritten. Since updaing the slack app can overwrite changes in the slack app folder it is reccomended to keep the css patchfile in a folder outside the slack app folder.
@@ -35,7 +35,7 @@ These changes will persist untilt the slack app is updated or until this program
 ### example
 
 ```sh
-npm run start -- slack:"C:\Users\Michael\AppData\Local\slack" css:"patch.css"
+slack-css-patcher --slack-path "C:\Users\Michael\AppData\Local\slack" --patch-file "patch.css"
 ```
 
 ### removing the patch
