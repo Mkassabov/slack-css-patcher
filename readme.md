@@ -1,6 +1,6 @@
 # Slack App CSS Patcher!
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Mkassabov/slack-css-patcher?style=social)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Mkassabov/slack-css-patcher?style=social)](https://github.com/Mkassabov/slack-css-patcher/stargazers)
 
 A simple tool to patch the slack app with custom css.
 
